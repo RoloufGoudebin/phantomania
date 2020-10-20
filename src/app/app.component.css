@@ -1,3 +1,118 @@
 body{
     background-color: #00111b;
 }
+
+
+.container {
+  height: 650px;
+
+}
+
+.card-body {
+  margin-top: 250px;
+  height: 350px;
+  background:#b365cc;
+}
+
+.product-title {
+  color:white;
+  padding: 20px 20px 5px 20px;
+  display: block;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.product-title b {
+  color:white;
+  font-weight: 900;
+  letter-spacing: 0px;
+}
+
+.product-caption {
+  display: block;
+  padding: 0 20px;
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+
+.product-size h4 {
+  color:white;
+  font-size: 11px;
+  padding: 0 21px;
+  margin-top: 15px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.ul-size {
+  color:white;
+  margin-left: 15px;
+}
+
+.ul-size li {
+  list-style: none;
+  float: left;
+  margin-right: 20px;
+}
+
+.ul-size li a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 11px;
+  width: 22px;
+  height: 22px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 23px;
+  color: #000;
+}
+
+.ul-size li a.active {
+
+  background: #f35e3d;
+  color: #fff;
+}
+
+.product-size:before,
+.product-size:after {
+
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.product-color h4 {
+  color:white;
+  font-size: 11px;
+  padding: 0 21px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.ul-color {
+  margin-left: 27px;
+}
+
+.product-price {
+  position: absolute;
+  background: #ea6661;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 200;
+  color: #fff;
+  border-radius: 9px;
+  margin-top: 1px;
+  margin-left: -5px;
+  box-shadow: -10px 20px 15px -10px rgba(17, 233, 91, 0.3);
+}
+
+.product-price b {
+  margin-left: 9px;
+}
