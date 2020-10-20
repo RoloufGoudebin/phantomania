@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "phantomania"
+    }
+  },
+  "defaultProject": "phantomania",
+  "cli": {
+    "analytics": "372e113a-4cac-4616-a25d-4c29b51f6c22"
+  }
 }
