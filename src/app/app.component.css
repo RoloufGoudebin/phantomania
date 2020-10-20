@@ -3,13 +3,7 @@ body{
 }
 
 
-.container {
-  height: 650px;
-
-}
-
 .card-body {
-  margin-top: 250px;
   height: 350px;
   background:#b365cc;
 }
@@ -115,4 +109,10 @@ body{
 
 .product-price b {
   margin-left: 9px;
+}
+
+.centerimg{
+    display: block;
+    margin: auto;
+    padding-top: 15%;
 }
